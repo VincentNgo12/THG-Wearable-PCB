@@ -2112,7 +2112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "THG_Wristwatch:MPU6500_IMU"
 			(at 243.84 83.82 0)
 			(effects
 				(font
@@ -2204,7 +2204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "THG_Wristwatch:ILI9341_2.8__SPI_TFT_LCD"
 			(at 57.15 87.63 0)
 			(effects
 				(font
@@ -2308,7 +2308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "THG_Wristwatch:MAX30102 Heart Rate_Pulse Sensor"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -2396,7 +2396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "THG_Wristwatch:ENS160+AHT21_Environmental_Sensor"
 			(at 190.5 80.01 0)
 			(effects
 				(font

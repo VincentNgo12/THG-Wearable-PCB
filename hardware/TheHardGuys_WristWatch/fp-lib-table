@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "THG_Wristwatch")(type "KiCad")(uri "C:/Users/Vincent Ngo/Documents/KiCad/9.0/projects/The_Hard_Guys_WristWatch/hardware/libraries/footprints")(options "")(descr ""))
+  (lib (name "THG_Wristwatch")(type "KiCad")(uri "$(KIPRJMOD)/../libraries/footprints")(options "")(descr ""))
 )
