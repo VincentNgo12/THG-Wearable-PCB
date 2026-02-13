@@ -2740,8 +2740,8 @@
 		)
 	)
 	(rectangle
-		(start 110.49 44.45)
-		(end 198.12 146.05)
+		(start 111.76 44.45)
+		(end 196.85 146.05)
 		(stroke
 			(width 0)
 			(type default)
@@ -2761,9 +2761,9 @@
 		)
 		(uuid "5fdaa648-fc3b-45f6-ae4e-ce9d1f81761f")
 	)
-	(text_box "ESP32-DevKitC\nMicrocontroller"
+	(text_box "ESP32 Feather V2\nMicrocontroller"
 		(exclude_from_sim no)
-		(at 132.08 55.88 0)
+		(at 132.08 50.8 0)
 		(size 41.91 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2778,6 +2778,7 @@
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
+				(italic yes)
 			)
 			(justify top)
 		)
@@ -2951,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 181.61 88.9)
+			(xy 172.72 88.9) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2998,6 +2999,16 @@
 			(type default)
 		)
 		(uuid "0bd46742-f170-4818-acc4-6b743251bd64")
+	)
+	(wire
+		(pts
+			(xy 172.72 109.22) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1090e06d-8592-49a5-b390-3ef09456930f")
 	)
 	(wire
 		(pts
@@ -3121,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 181.61 96.52)
+			(xy 172.72 96.52) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3161,7 +3172,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 181.61 91.44)
+			(xy 172.72 91.44) (xy 179.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3331,7 +3342,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 176.53 124.46)
+			(xy 172.72 124.46) (xy 179.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3371,16 +3382,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 109.22) (xy 182.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0bf7f1-22ff-41d7-947f-23155753cdf1")
-	)
-	(wire
-		(pts
 			(xy 132.08 78.74) (xy 127 78.74)
 		)
 		(stroke
@@ -3391,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 116.84) (xy 173.99 116.84)
+			(xy 172.72 116.84) (xy 179.07 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3500,7 +3501,7 @@
 		(uuid "515c9ccb-7bcb-4b0d-9106-f6b623e11a40")
 	)
 	(label "SPI_SCK"
-		(at 181.61 96.52 0)
+		(at 179.07 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3510,7 +3511,7 @@
 		(uuid "7136895d-c2db-4ac0-8bf7-829405bb0c09")
 	)
 	(label "SPI_CS_LCD"
-		(at 182.88 109.22 0)
+		(at 179.07 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3540,7 +3541,7 @@
 		(uuid "92b7f8b2-c67c-404a-a55d-c2c213900a96")
 	)
 	(label "SPI_MOSI"
-		(at 181.61 91.44 0)
+		(at 179.07 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3590,7 +3591,7 @@
 		(uuid "d6c60c75-6f51-4caf-9605-ad490adf1c12")
 	)
 	(label "SPI_MISO"
-		(at 181.61 88.9 0)
+		(at 179.07 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3838,7 +3839,7 @@
 		(dnp no)
 		(uuid "1cda2107-13b4-4bd0-91ac-83370ed99ebd")
 		(property "Reference" "U1"
-			(at 156.21 66.04 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4584,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 176.53 124.46 270)
+		(at 179.07 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4592,7 +4593,7 @@
 		(fields_autoplaced yes)
 		(uuid "3eae6108-d61a-4edf-b920-c68390ab38b3")
 		(property "Reference" "#PWR03"
-			(at 172.72 124.46 0)
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4602,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 180.34 124.4599 90)
+			(at 182.88 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 124.46 0)
+			(at 179.07 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 124.46 0)
+			(at 179.07 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 176.53 124.46 0)
+			(at 179.07 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +4788,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 116.84 90)
+		(at 179.07 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4795,7 +4796,7 @@
 		(dnp no)
 		(uuid "4c51baa1-73c2-4968-831c-c9e094aa11b3")
 		(property "Reference" "#PWR04"
-			(at 180.34 116.84 0)
+			(at 185.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +4805,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 178.054 116.84 90)
+			(at 183.134 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 116.84 0)
+			(at 179.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 116.84 0)
+			(at 179.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 116.84 0)
+			(at 179.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
